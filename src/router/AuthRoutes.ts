@@ -11,6 +11,11 @@ const AuthRoutes = {
             component: () => import('@/views/auth/Login.vue')
         },
         {
+            name: 'info',
+            path: '/auth/info',
+            component: () => import('@/components/dashboard/Inforuser.vue')
+        },
+        {
             name: 'Register',
             path: '/auth/register',
             component: () => import('@/views/auth/Register.vue')

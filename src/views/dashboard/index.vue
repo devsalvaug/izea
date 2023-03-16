@@ -5,6 +5,9 @@ import Demographics from '@/components/dashboard/Demographics.vue';
 import YearlyBreakup from '@/components/dashboard/YearlyBreakup.vue';
 import MonthlyEarning from '@/components/dashboard/MonthlyEarnings.vue';
 import Cardsapps from '@/components/dashboard/Cardsapps.vue';
+import SalesOverview from '@/components/dashboard/SalesOverview.vue';
+
+import RecentTransaction from '@/components/dashboard/RecentTransaction.vue';
 
 import ProductPerformance from '@/components/dashboard/ProductPerformance.vue';
 import ProductCards from '@/components/dashboard/ProductCards.vue';
@@ -22,6 +25,9 @@ import ProductCards from '@/components/dashboard/ProductCards.vue';
         </div>
         <div class="fixed-column">
             <Cardsapps />
+            <MonthlyEarning />
+            <YearlyBreakup />
+            <SalesOverview />
 
 
         </div>
